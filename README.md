@@ -5,7 +5,7 @@ Name: Archisha Tyagi
 
 Role: Developer – Position 1
 
-#Project Overview
+# Project Overview
 This repository contains the solution for the Namoza Developer Assignment.
 
 The project includes:
@@ -13,7 +13,7 @@ The project includes:
 Task 1 – GTM Event Schema
 Task 2 – Responsive Landing Page
 Task 3 – HubSpot + Karix Integration Design
-#Technologies Used
+# Technologies Used
 HTML5
 CSS3
 JavaScript (Vanilla)
@@ -35,13 +35,13 @@ OrthoNow-Developer-Assignment
 │      script.js
 │
 └── images
-#How to Run
+# How to Run
 Download the project.
 Open it in Visual Studio Code.
 Install the Live Server extension.
 Open index.html.
 Click Open with Live Server.
-#Features
+# Features
 Responsive Landing Page
 Consultation Booking Form
 GTM dataLayer Push
@@ -49,5 +49,5 @@ Thank You Page
 Google Analytics Ready
 Mobile Friendly
 Modern UI Design
-#Author
+# Author
 Archisha Tyagi
