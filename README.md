@@ -14,11 +14,11 @@ The project includes:
 * Task 2 – Responsive Landing Page
 * Task 3 – HubSpot + Karix Integration Design
 # Technologies Used
-HTML5
-CSS3
-JavaScript (Vanilla)
-Google Tag Manager (GTM)
-Google Analytics 4 (GA4)
+* HTML5
+* CSS3
+* JavaScript (Vanilla)
+* Google Tag Manager (GTM)
+* Google Analytics 4 (GA4)
 #Folder Structure
 OrthoNow-Developer-Assignment
 
@@ -36,18 +36,18 @@ OrthoNow-Developer-Assignment
 │
 └── images
 # How to Run
-Download the project.
-Open it in Visual Studio Code.
-Install the Live Server extension.
-Open index.html.
-Click Open with Live Server.
+* Download the project.
+* Open it in Visual Studio Code.
+* Install the Live Server extension.
+* Open index.html.
+* Click Open with Live Server.
 # Features
-Responsive Landing Page
-Consultation Booking Form
-GTM dataLayer Push
-Thank You Page
-Google Analytics Ready
-Mobile Friendly
-Modern UI Design
+* Responsive Landing Page
+* Consultation Booking Form
+* GTM dataLayer Push
+* Thank You Page
+* Google Analytics Ready
+* Mobile Friendly
+* Modern UI Design
 # Author
 Archisha Tyagi
