@@ -10,9 +10,9 @@ This repository contains the solution for the Namoza Developer Assignment.
 
 The project includes:
 
-Task 1 – GTM Event Schema
-Task 2 – Responsive Landing Page
-Task 3 – HubSpot + Karix Integration Design
+* Task 1 – GTM Event Schema
+* Task 2 – Responsive Landing Page
+* Task 3 – HubSpot + Karix Integration Design
 # Technologies Used
 HTML5
 CSS3
