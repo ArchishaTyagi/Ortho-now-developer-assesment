@@ -4,7 +4,7 @@
 
 **Project:** OrthoNow Consultation Landing Page
 
-**Prepared By:** Priyanshu Mishra
+**Prepared By:** Archisha Tyagi
 
 **Technology Used:**
 - HTML5
