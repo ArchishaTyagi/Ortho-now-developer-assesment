@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OrthoNow | Book Consultation</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+<header class="navbar">
+
+    <div class="logo">
+        <h2>🏥 OrthoNow</h2>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Doctors</a></li>
+            <li><a href="#">Clinics</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+    <h1>Get an Expert Orthopaedic Opinion</h1>
+
+    <p>
+        Book your consultation with OrthoNow's experienced orthopaedic specialists.
+        Trusted by thousands of patients across Bengaluru.
+    </p>
+
+    <div class="hero-buttons">
+
+        <a href="tel:+919876543210" class="call-btn">
+            📞 Call Now
+        </a>
+
+        <a href="#consultationForm" class="book-btn">
+            📅 Book Consultation
+        </a>
+
+    </div>
+
+</section>
+
+        <!-- Trust Section -->
+        <section class="trust">
+
+            <h2>Why Choose OrthoNow?</h2>
+
+            <ul>
+                <li>⭐⭐⭐⭐⭐ Rated by 10,000+ Patients</li>
+                <li>9 Clinics Across Bengaluru, Hyderabad & Chennai</li>
+                <li>Experienced Orthopaedic Specialists</li>
+                <li>Same-Day Appointments Available</li>
+            </ul>
+
+        </section>
+
+        <!-- Consultation Form -->
+        <section class="form-section">
+
+            <h2>Book Your Consultation</h2>
+
+            <form id="consultationForm">
+
+                <!-- Full Name -->
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Your Full Name"
+                    required>
+
+                <!-- Phone -->
+                <label for="phone">Phone Number</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter Phone Number"
+                    maxlength="10"
+                    pattern="[0-9]{10}"
+                    required>
+
+                <!-- Email -->
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter Email Address">
+
+                <!-- Age -->
+                <label for="age">Age</label>
+                <input
+                    type="number"
+                    id="age"
+                    min="18"
+                    max="100"
+                    placeholder="Enter Age">
+
+                <!-- Gender -->
+                <label for="gender">Gender</label>
+                <select id="gender">
+                    <option value="">Select Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+
+                <!-- Preferred Clinic -->
+                <label for="clinic">Preferred Clinic</label>
+                <select id="clinic" required>
+                    <option value="">Select Clinic</option>
+                    <option>Bengaluru - Indiranagar</option>
+                    <option>Bengaluru - Whitefield</option>
+                    <option>Bengaluru - Jayanagar</option>
+                    <option>Hyderabad - Gachibowli</option>
+                    <option>Hyderabad - Hitech City</option>
+                    <option>Chennai - Anna Nagar</option>
+                </select>
+
+                <!-- Preferred Doctor -->
+                <label for="doctor">Preferred Doctor</label>
+                <select id="doctor">
+                    <option value="">Select Doctor</option>
+                    <option>Dr. Rahul Sharma</option>
+                    <option>Dr. Priya Mehta</option>
+                    <option>Dr. Arjun Kumar</option>
+                </select>
+
+                <!-- Speciality -->
+                <label for="speciality">Orthopaedic Speciality</label>
+                <select id="speciality">
+                    <option value="">Select Speciality</option>
+                    <option>Knee Specialist</option>
+                    <option>Back Pain Specialist</option>
+                    <option>Sports Injury</option>
+                    <option>Shoulder Specialist</option>
+                    <option>Hip Replacement</option>
+                </select>
+
+                <!-- Pain Area -->
+                <label for="painType">Pain Area</label>
+                <select id="painType">
+                    <option value="">Select Pain Area</option>
+                    <option>Knee Pain</option>
+                    <option>Back Pain</option>
+                    <option>Shoulder Pain</option>
+                    <option>Neck Pain</option>
+                    <option>Hip Pain</option>
+                    <option>Ankle Pain</option>
+                </select>
+
+                <!-- Appointment Date -->
+                <label for="appointmentDate">Preferred Appointment Date</label>
+                <input
+                    type="date"
+                    id="appointmentDate">
+
+                <!-- Appointment Time -->
+                <label for="appointmentTime">Preferred Time</label>
+                <select id="appointmentTime">
+                    <option value="">Select Time</option>
+                    <option>09:00 AM</option>
+                    <option>10:00 AM</option>
+                    <option>11:00 AM</option>
+                    <option>12:00 PM</option>
+                    <option>02:00 PM</option>
+                    <option>03:00 PM</option>
+                    <option>04:00 PM</option>
+                    <option>05:00 PM</option>
+                </select>
+
+                <!-- Address -->
+                <label for="address">City / Address</label>
+                <input
+                    type="text"
+                    id="address"
+                    placeholder="Enter Your City">
+
+                <!-- Medical History -->
+                <label for="history">Symptoms / Medical History</label>
+                <textarea
+                    id="history"
+                    rows="4"
+                    placeholder="Describe your symptoms..."></textarea>
+
+                <!-- Terms -->
+                <div class="checkbox">
+                    <input
+                        type="checkbox"
+                        id="terms"
+                        required>
+
+                    <label for="terms">
+                        I agree to the Privacy Policy and Terms & Conditions.
+                    </label>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit">
+                    Book Consultation
+                </button>
+
+            </form>
+
+            <!-- Hidden Thank You Message -->
+            <div id="thankYou" style="display:none;">
+
+                <h2>Thank You!</h2>
+
+                <p>
+                    Your consultation request has been received successfully.
+                    Our medical team will contact you shortly.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Patient Guide Section -->
+
+<section class="guide">
+
+    <h2>Download Our Free Patient Guide</h2>
+
+    <p>
+        Learn about common orthopaedic problems, treatments,
+        and recovery tips from our specialists.
+    </p>
+
+    <a
+        href="images/patient-guide.pdf"
+        download
+        class="download-btn">
+
+        📄 Download Patient Guide
+
+    </a>
+
+</section>
+
+
+
+
+
+        <!-- Testimonials Section -->
+<section class="testimonials">
+
+    <h2>What Our Patients Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <p>"Excellent treatment for my knee pain. The doctors were professional and caring."</p>
+            <h4>- Amit Verma</h4>
+            <span>⭐⭐⭐⭐⭐</span>
+        </div>
+
+        <div class="testimonial-card">
+            <p>"Booked an appointment online and received treatment the same day. Highly recommended."</p>
+            <h4>- Sneha Patel</h4>
+            <span>⭐⭐⭐⭐⭐</span>
+        </div>
+
+        <div class="testimonial-card">
+            <p>"My back pain improved significantly after just a few sessions."</p>
+            <h4>- Rohan Gupta</h4>
+            <span>⭐⭐⭐⭐⭐</span>
+        </div>
+
+    </div>
+
+</section>
+<section class="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>How quickly can I get an appointment?</h3>
+<p>Most patients receive an appointment within 24 hours.</p>
+</div>
+
+<div class="faq-item">
+<h3>Do you accept walk-in patients?</h3>
+<p>Yes, but booking online helps reduce waiting time.</p>
+</div>
+
+<div class="faq-item">
+<h3>Which insurance plans are accepted?</h3>
+<p>Most major health insurance providers are accepted.</p>
+</div>
+
+</section>
+
+
+
+
+
+        <!-- Doctors Section -->
+
+<section class="doctors">
+
+    <h2>Meet Our Specialists</h2>
+
+    <div class="doctor-container">
+
+        <div class="doctor-card">
+
+            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300" alt="Doctor">
+
+            <h3>Dr. Rahul Sharma</h3>
+
+            <p>Senior Orthopaedic Surgeon</p>
+
+            <p>15+ Years Experience</p>
+
+        </div>
+
+        <div class="doctor-card">
+
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300" alt="Doctor">
+
+            <h3>Dr. Priya Mehta</h3>
+
+            <p>Back & Spine Specialist</p>
+
+            <p>12+ Years Experience</p>
+
+        </div>
+
+        <div class="doctor-card">
+
+            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=300" alt="Doctor">
+
+            <h3>Dr. Arjun Kumar</h3>
+
+            <p>Sports Injury Expert</p>
+
+            <p>10+ Years Experience</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </div>
+    <footer>
+
+<h3>OrthoNow Healthcare</h3>
+
+<p>9 Clinics | Bengaluru | Hyderabad | Chennai</p>
+
+<p>📞 +91 9876543210</p>
+
+<p>✉ contact@orthonow.com</p>
+
+<p>© 2026 OrthoNow. All Rights Reserved.</p>
+
+</footer>
+
+<!-- WhatsApp Floating Button -->
+
+<a
+href="https://wa.me/919876543210"
+class="whatsapp"
+target="_blank"
+title="Chat on WhatsApp">
+
+💬
+
+</a>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
