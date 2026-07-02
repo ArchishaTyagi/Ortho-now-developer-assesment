@@ -2,7 +2,7 @@
 
 ## OrthoNow Consultation Landing Page Integration
 
-**Prepared By:** Priyanshu Mishra
+**Prepared By:** Archisha Tyagi
 
 ## End-to-End Integration Architecture
 The consultation form on the OrthoNow landing page is built using HTML, CSS, and JavaScript. When a user submits the form, the frontend first validates the entered information and triggers a `window.dataLayer.push()` event for Google Tag Manager (GTM). At the same time, the form data is securely sent to a backend API using an HTTPS POST request.
