@@ -2,7 +2,7 @@
 
 ## Candidate Information
 
-**Name:** Priyanshu Mishra
+**Name:** Archisha Tyagi
 
 **Role:** Developer – Position 1
 
@@ -76,4 +76,4 @@ OrthoNow-Developer-Assignment
 
 # Author
 
-Priyanshu Mishra
+Archisha Tyagi
