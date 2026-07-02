@@ -20,7 +20,7 @@ The project includes:
 * JavaScript (Vanilla)
 * Google Tag Manager (GTM)
 * Google Analytics 4 (GA4)
-#Folder Structure
+# Folder Structure
 OrthoNow-Developer-Assignment
 
 │
